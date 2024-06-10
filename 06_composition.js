@@ -20,7 +20,7 @@ const concat = (arr1, arr2) => [...arr1, ...arr2];
  */
 
 const push = (arr, item) => {
-    return [...arr, ...item];
+    return [...arr, item];
 }
 
 /**
